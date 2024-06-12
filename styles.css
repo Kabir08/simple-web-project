@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* Reset some basic styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, nav, main, aside, footer {
+    padding: 1em;
+    margin: 0.5em;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background-color: #343A40;
+    color: #fff;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+nav a:hover {
+    background-color: #007BFF;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > article {
+    flex: 3;
+    background-color: #fff;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+aside {
+    flex: 1;
+    background-color: #e9ecef;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+footer {
+    background-color: #343A40;
+    color: #fff;
+    text-align: center;
+}
